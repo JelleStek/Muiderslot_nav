@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import LinkItem from "./LinkItem";
+import logo from "./logo.png";
 
 function Header() {
   return (
@@ -15,7 +16,9 @@ function Header() {
               <LinkItem link="/" titel="Link4" />
             </ul>
           </div>
-          <div className="logo_col"></div>
+          <div className="logo_col">
+            <img src={logo} alt="" />
+          </div>
           <div className="link_col right">
             <ul>
               <LinkItem link="/" titel="Home5" />

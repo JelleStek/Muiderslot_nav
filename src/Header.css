@@ -7,7 +7,7 @@ header#header {
   position: relative;
 }
 header#header .container {
-  max-width: 1350px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 header#header .container .flex__box {
@@ -22,14 +22,11 @@ header#header .link_col {
   flex: 0.4;
   display: flex;
   align-items: center;
-  padding: 30px 0;
+  padding: 25px 0;
 }
 header#header .link_col ul {
   display: flex;
   list-style: none;
-}
-header#header .logo_col {
-  flex: 0.2;
 }
 
 header#header .link_col::before {
@@ -37,8 +34,29 @@ header#header .link_col::before {
   position: absolute;
   width: 50vw;
   height: calc(100% - 80px);
-  left: calc(0px - 7.55%);
   top: 40px;
-  background: red;
+  background: #a40826;
   z-index: -1;
+}
+header#header .link_col.left::before {
+  left: calc(0px - 6.55%);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+header#header .link_col.right::before {
+  right: calc(0px - 6.55%);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+header#header .link_col.right {
+  flex-direction: row-reverse;
+}
+
+header#header .logo_col {
+  flex: 0.2;
+}
+
+header#header .logo_col img {
+  max-height: 100px;
+  transform: scale(1.2);
 }
