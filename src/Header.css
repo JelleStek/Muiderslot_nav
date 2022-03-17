@@ -54,6 +54,9 @@ header#header .link_col.right {
 
 header#header .logo_col {
   flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header#header .logo_col img {
