@@ -20,7 +20,7 @@ header#header .container .flex__box {
   flex-direction: row;
 }
 header#header .link_col {
-  flex: 0.4;
+  flex: 0.425;
   display: flex;
   align-items: center;
   padding: 25px 0;
@@ -40,12 +40,12 @@ header#header .link_col::before {
   z-index: 0;
 }
 header#header .link_col.left::before {
-  left: calc(0px - 6.55%);
+  left: -65px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
 header#header .link_col.right::before {
-  right: calc(0px - 6.55%);
+  right: -65px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -54,7 +54,7 @@ header#header .link_col.right {
 }
 
 header#header .logo_col {
-  flex: 0.2;
+  flex: 0.1.5;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -10,21 +10,31 @@ function Header() {
         <div className="flex__box">
           <div className="link_col left">
             <ul>
-              <LinkItem link="/" titel="Home" />
-              <LinkItem link="/" titel="Link2" />
-              <LinkItem link="/" titel="Link3" />
-              <LinkItem link="/" titel="Link4" />
+              <LinkItem
+                link="https://muiderslot.nl/kaartjes/"
+                titel="Kaartjes"
+              />
+              <LinkItem link="https://muiderslot.nl/webshop/" titel="Webshop" />
+              <LinkItem
+                link="https://muiderslot.nl/plan-je-bezoek"
+                titel="Plan je bezoek"
+              />
             </ul>
           </div>
           <div className="logo_col">
-            <img src={logo} alt="" />
+            <a href="/">
+              <img src={logo} alt="" />
+            </a>
           </div>
           <div className="link_col right">
             <ul>
-              <LinkItem link="/" titel="Home5" />
-              <LinkItem link="/" titel="Link6" />
-              <LinkItem link="/" titel="Link7" />
-              <LinkItem link="/" titel="Link8" />
+              <LinkItem link="https://muiderslot.nl/ontdek/" titel="Ontdek" />
+              <LinkItem
+                link="https://www.datamachine.nl:8443/collectionviewer/"
+                titel="Zoeken in de collectie"
+              />
+              <LinkItem link="https://muiderslot.nl/agenda/" titel="Agenda" />
+              <LinkItem link="https://muiderslot.nl/nieuws/" titel="Nieuws" />
             </ul>
           </div>
         </div>
