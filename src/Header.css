@@ -1,0 +1,44 @@
+header#header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+}
+header#header .container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+header#header .container .flex__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10px;
+  flex-direction: row;
+}
+header#header .link_col {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+}
+header#header .link_col ul {
+  display: flex;
+  list-style: none;
+}
+header#header .logo_col {
+  flex: 0.2;
+}
+
+header#header .link_col::before {
+  content: "";
+  position: absolute;
+  width: 50vw;
+  height: calc(100% - 80px);
+  left: calc(0px - 7.55%);
+  top: 40px;
+  background: red;
+  z-index: -1;
+}

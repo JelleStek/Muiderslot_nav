@@ -1,0 +1,7 @@
+li.LinkItem {
+  margin: 0 5px;
+}
+li.LinkItem a {
+  color: #fff;
+  text-decoration: none;
+}
