@@ -5,9 +5,10 @@ header#header {
   left: 0;
   width: 100%;
   position: relative;
+  background-color: #fff;
 }
 header#header .container {
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 header#header .container .flex__box {
@@ -36,7 +37,7 @@ header#header .link_col::before {
   height: calc(100% - 80px);
   top: 40px;
   background: #a40826;
-  z-index: -1;
+  z-index: 0;
 }
 header#header .link_col.left::before {
   left: calc(0px - 6.55%);

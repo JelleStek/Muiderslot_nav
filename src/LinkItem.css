@@ -1,5 +1,7 @@
 li.LinkItem {
   margin: 0 5px;
+  position: relative;
+  z-index: 1;
 }
 li.LinkItem a {
   color: #fff;
